@@ -1,6 +1,6 @@
 # Real-time Electricity Generation & Carbon Emissions
 
-A Python pipeline that fetches electricity generation and CO₂ emissions data from Australia's National Electricity Market (NEM) via the [Open Electricity API](https://api.openelectricity.org.au), stores it locally, streams it over MQTT, and visualises it on an interactive live dashboard.
+A Python pipeline that fetches electricity generation and CO₂ emissions data from Australia's National Electricity Market (NEM) via the [Open Electricity API](https://docs.openelectricity.org.au/api-reference/overview), stores it locally, streams it over MQTT, and visualises it on an interactive live dashboard.
 
 ## Overview
 
@@ -46,7 +46,7 @@ data_collector_publisher.py  ──►  consolidated_data.csv
 ## Requirements
 
 - Python 3.9+
-- An [Open Electricity API](https://api.openelectricity.org.au) key
+- An [Open Electricity API key](https://platform.openelectricity.org.au) (register on the platform; API base URL is `https://api.openelectricity.org.au/v4`)
 - Network access to the API and MQTT broker
 
 ## Installation
