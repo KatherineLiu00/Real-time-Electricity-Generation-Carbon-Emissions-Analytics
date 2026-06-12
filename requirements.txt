@@ -1,0 +1,8 @@
+requests==2.31.0
+paho-mqtt==1.6.1
+pandas==2.1.3
+numpy==1.26.2
+python-dateutil==2.8.2
+dash>=2.9.0
+plotly>=5.15.0
+dash-leaflet>=0.2.0
