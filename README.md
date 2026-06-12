@@ -138,7 +138,6 @@ Each published message is a JSON object:
 ## Maintenance Notes
 
 - **`data/cache/`** — Safe to delete. It will be recreated the next time the collector fetches facility metadata from the API.
-- **`__pycache__/`** — Python bytecode cache. Safe to delete; regenerated automatically on the next run.
 - **`consolidated_data.csv`** — Your collected dataset. Delete only if you want to start fresh.
 
 ## Dependencies
